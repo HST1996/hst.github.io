@@ -1,0 +1,14 @@
+$(function(){
+	$('.log').mouseenter(function(){
+		$('.log').css('background-color','mediumblue');
+	})
+	$('.log').mouseleave(function(){
+		$('.log').css('background-color','blue');
+	})
+	$('.new').mouseenter(function(){
+		$('.new').css('background-color','aliceblue');
+	})
+	$('.new').mouseleave(function(){
+		$('.new').css('background-color','white');
+	})
+})
